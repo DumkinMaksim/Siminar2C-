@@ -2,7 +2,6 @@
 /*
 int  krat,index;
 char[] array;
-// krat10, krat100, krat1000, krat10000
 Console.Write("Enter the number: ");
 string nums=Console.ReadLine();
  array = nums.ToCharArray();
@@ -22,7 +21,8 @@ else
 }
 
 */
-
+void Find3numbers()
+{
 int  krat,rez,prez,numstwo,stepen;
 Console.Write("Enter the number: ");
 string nums=Console.ReadLine();
@@ -38,4 +38,6 @@ else
     numstwo=prez/stepen;
     rez=numstwo%10;
     Console.WriteLine("A number less than three digits:  "+rez);
-}    
+} 
+}   
+Find3numbers();
